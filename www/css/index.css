@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#spanH1{
+    color:white;
+}
+html{
+    font-size: 100%;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;    
+    background-color: #576266;
+    font-family: 'OpenSans';
+    
+}
+
+/* Cabeçalho do APP*/
+
+header{
+    /* Propriedades do box */
+    font-family: 'Vollkorn';
+    width: 100%;
+    border-bottom: solid thick #23a96e;
+    padding: 0.5% 0.5%;  
+    
+    /* Propriedades visuais*/
+    background-color: #2f2f31;  
+    color: black;       
+    font-size: 1rem;    
+}
+
+
+header > h1{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.0%;
+    color: #23a96e; 
+}
+
+
+/* Menu do APP */
+
+nav{
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+ul#menu > li{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul#menu li > a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #23a96e;
+    border-bottom: solid thick #2d473e; 
+    padding: 1rem 2rem;
+    border-radius: 0.20em;
+    margin-top: 8%;
+    color: white;
+}
+
+
+#centralizar{
+    margin : 3% 8%;
+    width: 60%; 
+}
+
+a{
+    text-decoration: none;
+}
+
+

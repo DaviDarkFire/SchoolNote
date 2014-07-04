@@ -1,0 +1,134 @@
+@font-face{
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#spanH1{
+	color:white;
+	margin: 0 0;
+}
+html{
+	font-size: 100%;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'OpenSans';
+	background-color: #576266;
+	
+}
+
+/* Cabeçalho do APP*/
+
+header{
+	/* Propriedades do box */
+	width: 100%;
+	border-bottom: solid thick #23a96e;
+	padding: 0.5% 0.5%;	 
+	
+	/* Propriedades visuais*/
+	background-color: #2f2f31;	
+	color: #23a96e;		
+	font-size: 1rem;
+	font-family: 'Vollkorn';
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+
+header > h1{
+	width: 90%;
+	margin-top: 0.3%;	
+	padding-top: 2.5%;
+	margin-left: 5%;
+	padding-bottom: 2.0%;
+	color: #23a96e;
+}
+.listaProjetos{	
+	border: solid; 
+	border-top: none;	
+	border-right: none;
+	border-left: none;
+	border-width: 0.1rem;	
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+	border-bottom-color: #23a96e;
+	color: white;
+	font-size: 1.1rem;	
+}
+a{
+	text-decoration: none;	
+}
+#add{
+	color: white;		
+
+}
+.direita{
+	float: right;
+}
+.esquerda{
+	float: left;
+}
+span{
+	margin-left: 5%;	
+}
+
+#content {
+	margin-top: 4rem;
+}
+.close{
+	position: fixed;
+	top: 0;
+	right:0;
+	line-height: 4rem;
+	padding-right: 1rem;
+}
+
+
+
+#listaProjetos ul > li.projeto{
+	font-family: 'OpenSans';
+	border: solid; 
+	border-top: none;
+	border-right: none;
+	border-left: none;	
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+	border-width: 0.1rem;	
+	color: white;
+	border-bottom-color: #23a96e;
+	font-size: 1.1rem;
+	padding: 2rem
+}
+
+#listaProjetos{
+	margin-top: 10%;
+}
+button{
+	padding: 3% 1%;
+	width: 49%;
+	margin-top: 80%;
+	margin-left: 0.5%; 
+	font-family: 'OpenSans';
+	font-size: 1rem;
+	border: none;
+	background-color: #23a96e;
+	color: white;
+	border-radius: 0.20rem;
+}

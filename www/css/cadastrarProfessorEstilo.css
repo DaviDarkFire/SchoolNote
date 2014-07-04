@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "Vollkorn";
+    src: url("../fonts/Vollkorn.ttf");
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#spanH1{
+	color:white;
+}
+html{
+	font-size: 100%;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'OpenSans';
+	background-color: #576266;	
+	
+}
+
+/* Cabeçalho do APP*/
+
+header{
+	/* Propriedades do box */
+	width: 100%;
+	border-bottom: solid thick #23a96e;
+	padding: 0.5% 0.5%;	 
+	
+	/* Propriedades visuais*/
+	background-color: #2f2f31;	
+	color: black;		
+	font-family: 'Vollkorn';
+	font-size: 1rem;	
+}
+
+
+header > h1{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 2.5%;
+	padding-bottom: 2.0%;
+	color: #23a96e;
+}
+#nomeProfessor{
+	width: 100%;
+	margin-top: 5%;	
+}
+#btCadastrarProfessor{
+	width: 100%;
+	margin-top: 5%;		
+}
+#btAlterarProfessor{
+	width: 100%;
+	margin-top: 5%;
+
+}
+form > input{
+	padding: 1% 1%;
+	width: 90%;
+	margin: 0 auto;
+	border-style: outset;	
+	border-radius: 0.4rem;
+}
+form > input[type='submit']{
+	padding: 3% 1%;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #23a96e;
+	color: #2d473e;
+	font-family: 'OpenSans';
+	border: none;
+	color: white;
+	font-size: 1rem;
+}
+span{
+	margin-left: 0.5%;
+}
+#lbNomeProf{
+	margin-left: 5%;
+	color: #23a96e;
+	margin-top: 10%;
+}

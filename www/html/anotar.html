@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    		<meta charset="UTF-8">
+     		<link rel="stylesheet" type="text/css" href="../css/anotarEstilo.css">
+      	<title>Anotar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+        <header><h1>School<span id="spanH1">Note</span></h1></header>
+        <form action="#" method ="POST" id="cad_Anotacao">
+                <label for="areaTexto" id="lbAreaTexto">Anotar:</label>
+                <textarea name="areaTexto" id="areaTexto" cols="10" rows="5"></textarea>                
+                <div class="tamanhoDiv">                                    
+                    <div class="esquerda" id="divData">
+                        <label for="data">Data</label>
+                        <input type="date" name="data" id="data"/>
+                    </div>
+                    <div class="direita" id="divTipoAnotacao">
+                        <label for="tipoAnotacao">Tip. Anot.</label>
+                        <select name="tipoAnotacao" id="tipoAnotacao">                
+                                <option value="Prova">Prova</option>          
+                                <option value="Tarefa">Tarefa</option>
+                                <option value="Trabalho">Trabalho</option>                           
+                        </select>
+                    </div>                     
+                </div>
+                <!--Essa parte é uma gambiarra que deve ser arrumada-->
+                <span>                
+                    <p>a</p>                
+                </span>
+                <!--Fim da gambiarra que deve ser arrumada-->
+                <div class="tamanhoDiv">                    
+                    <div class="esquerda" id="divLembrete">
+                        <label for="lembrete">Lembrete:</label>
+                        <input type="date" name="lembrete" id="lembrete">
+                    </div>
+                    <div class="direita" id="divRelacionadoA">
+                        <label for="relacionadoA">Proj./Disc</label>
+                        <select name="relacionadoA" id="relacionadoA">                
+                                
+                                                                
+                        </select>
+                    </div>                                                                        
+                </div>
+                <span class="esquerda" id="nivelImport">
+                    Nível de Importância:
+                </span>                
+                <div id="divRadioImportancia">                        
+                        <div class="inline">
+                            <input id="baixo" type="radio" name="importancia" value="baixo" />
+                            <label for="baixo">Baixo</label>
+                        </div>
+                        <div class="inline">
+                            <input id="medio" type="radio" name="importancia" value="medio"/>
+                            <label for="medio">Médio</label>
+                        </div>
+                        <div class="inline">
+                            <input id="alto" type="radio" name="importancia" value="alto"/>
+                            <label for="alto">Alto</label>
+                        </div>
+                        
+                </div>
+                <button name="botao" id="btCadastrarAnotacao">Salvar</button>
+        </form> 
+        <script type="text/javascript" src="../plugins/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="../js/lsdb.js"></script>        
+        <script type="text/javascript" src="../js/cadastrarAnotacao.js"></script>   	         
+  </body>      
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    		<meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/flaticon.css">
+     		<link rel="stylesheet" type="text/css" href="../css/projetosEstilo.css">
+      	<title>Projetos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>  	 
+        <header>
+            <h1>School<span id="spanH1">Note</span>
+                <a href="cadastrarProjeto.html" id="add" class="direita">
+                  <span class="flaticon-plus24" id="PlusIcon"></span>
+                </a>
+            </h1>
+        </header>
+
+        <div id="content">
+          <div id="listaProjetos">
+            <ul>        
+            </ul>
+          </div>
+        </div>
+        
+            
+            
+        <script type="text/javascript" src="../plugins/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="../js/mustache.js"></script>
+        <script type="text/javascript" src="../js/lsdb.js"></script>
+        <script type="text/javascript" src="../js/listarProjetos.js"></script> 
+
+        <script type="x-tmpl-mustache" id="template-projeto">
+          <div class="info-proj">
+            <p class="nome" id="nome">Nome: {{nome}}</p>
+            <p class="diasSemana" id="diasSemana">Dias: {{diasSemana}}</p>
+            <p class="professor" id="professor">Professor: {{professor}}</p>
+            <button name="btExcluir" id="btExcluir">Excluir</button>
+            <button name="btAlterar" id="btAlterar">Alterar</button>
+          </div>
+        </script>                 
+  </body>
+</html>

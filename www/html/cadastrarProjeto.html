@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    		<meta charset="UTF-8">
+     		<link rel="stylesheet" type="text/css" href="../css/cadastrarProjetoEstilo.css">
+      	<title>Cadastrar Projeto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>     
+        <header>School<span id="spanH1">Note</span></h1></header>
+        <form action="#" method="POST" id="cad_Projetos">
+                <div class="espacamentos">
+                    <label for="nomeProjeto">Nome do Projeto:</label>                
+                    <input type="text" id="nomeProjeto" placeholder="Ex: GEG" required>
+                </div>
+                <div class="espacamentos">
+                    <label>Dias da Semana:</label>
+                    <div id="diasDaSemana">
+                        <input type="checkbox" name="domingo" id="domingo" data-dsemana="Domingo"/><label class="lbDia" for="domingo">D</label>
+                        <input type="checkbox" name="segunda" id="segunda"data-dsemana="Segunda"/><label class="lbDia" for="segunda">S</label>
+                        <input type="checkbox" name="terca" id="terca" data-dsemana="Terça"/><label class="lbDia" for="terca">T</label>
+                        <input type="checkbox" name="quarta" id="quarta" data-dsemana="Quarta"/><label class="lbDia" for="quarta">Q</label>
+                        <input type="checkbox" name="quinta" id="quinta" data-dsemana="Quinta"/><label class="lbDia" for="quinta">Q</label>
+                        <input type="checkbox" name="sexta" id="sexta" data-dsemana="Sexta"/><label class="lbDia" for="sexta">S</label>
+                        <input type="checkbox" name="sabado" id="sabado" data-dsemana="Sábado"/><label class="lbDia" for="sabado">S</label>                    
+                    </div>
+                </div>
+                <div class="espacamentos">
+                    <label for="pegarProfessor" id="lbProf">Professor:</label>
+                    </br>
+
+                    <select type="text" name="pegarProfessor" id="pegarProfessor" required>                    
+                    </select>              
+                </div>
+
+                <button name="botao" id="btCadastrarProjeto">Salvar</button>
+        </form>                  
+
+        <script type="text/javascript" src="../plugins/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="../js/lsdb.js"></script>
+        <script type="text/javascript" src="../js/cadastrarProjeto.js"></script>
+  </body>
+</html>

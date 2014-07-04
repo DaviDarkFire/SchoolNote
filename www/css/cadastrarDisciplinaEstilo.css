@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "Vollkorn";
+    src: url("../fonts/Vollkorn.ttf");
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans.ttf");
+}
+*{
+	margin: 0;
+	padding: 0;	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#spanH1{
+	color:white;
+	margin: 0 0;
+}
+html{
+	font-size: 100%;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'OpenSans';
+	background-color: #576266;
+	
+}
+
+/* Cabeçalho do APP*/
+
+header{
+	/* Propriedades do box */
+	width: 100%;
+	border-bottom: solid thick #23a96e;
+	padding: 2.3% 2.3%;	 
+	
+	/* Propriedades visuais*/
+	background-color: #2f2f31;	
+	color: #23a96e;		
+	font-size: 2rem;	
+	font-family: 'Vollkorn';
+}
+
+
+header > h1{
+	width: 90%;
+	margin-top: 0 auto;	
+	padding-top: 2.5%;
+	padding-bottom: 2.0%;
+	color: #23a96e;
+
+}
+#nomeDisciplina{
+	width: 100%;
+	margin-top: 5%;
+	padding: 4% 1%;
+}
+label{
+	font-family: 'OpenSans';
+	margin-left: 0.5%;
+	color: #CFE9F2;	
+
+}
+.lbDias{
+	color: #2d473e;
+
+}
+#btCadastrarDisciplina{
+	width: 100%;
+			
+}
+#diasDaSemana{		
+	border-bottom-style: solid; 	
+	margin-top: 5%;	
+	background-color: #23a96e;	
+	border-radius: 0.4rem;
+	width: 96%;
+	margin-right: 2%;
+	margin-left: 2%;
+	text-align: center;
+	margin-bottom: 5%;
+	border-bottom-color: #2d473e;
+	padding: 4% 1%;
+	border-width: 0.5rem;
+	color: #2d473e;
+}
+#pegarProfessor{
+	width: 50%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+form > input{
+	padding: 4% 1%;
+	width: 90%;
+	margin: 0;
+	border-style: outset;
+	border-radius: 0.4rem;
+	border: none;
+	
+}
+form > button{
+	padding: 4% 1%;
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'OpenSans';
+	font-size: 1rem;
+	background-color: #23a96e;
+	color: #2d473e;
+	border-radius: 0.20rem;
+	border: none;
+	color: white;
+}
+#btAlterarDisciplina{
+	width: 100%;
+}
+.espacamentos{
+	margin-top: 10%;
+}

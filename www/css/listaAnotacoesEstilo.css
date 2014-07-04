@@ -1,0 +1,139 @@
+@font-face{
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#spanH1{
+	color:white;
+}
+html{
+	font-size: 100%;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'OpenSans';
+	background-color: #576266;
+	color: black;	
+	
+}
+
+/* Cabeçalho do APP*/
+
+header{
+	/* Propriedades do box */
+	width: 100%;
+	border-bottom: solid thick #23a96e;
+	padding: 0.5% 0.5%;	 
+	
+	/* Propriedades visuais*/
+	background-color: #2f2f31;	
+	color: black;		
+	font-size: 1rem;	
+	font-family: 'Vollkorn';
+}
+
+
+header > h1{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 2.0%;
+	padding-bottom: 1.9%;
+	color: #23a96e;
+}
+
+div.divAnotacao{
+	position: relative;
+	border: solid;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-radius: 0.25em;	
+	margin-top: 6%;
+	margin-bottom: 6%;
+	border-top: none;
+	border-right: none;
+	border-left-width: thick;
+	border-bottom-width: thick;
+	padding: 1rem;
+}
+.anotacao{
+	width: 100%;
+}
+div > span{
+	margin-left: 0.5%;
+	
+
+}
+#ultimas{
+	margin-left: 5%;
+	padding-top: 10%;
+}
+
+
+/* PRIORIDADES */
+
+.prioridade-alta{
+	background-color: rgba(22,160,133,1.0);
+}
+
+.prioridade-media{
+	background-color: rgba(26,188,156,1.0);
+}
+
+.prioridade-baixa{
+	background-color: rgba(26,188,156,0.1);
+}
+
+
+.prioridade-alta-box::after,
+.prioridade-media-box::after,
+.prioridade-baixa-box::after{
+	font-family: Flaticon;
+	font-size: 1.5rem;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+.prioridade-alta-box::after{
+	content: "\e0b7  \e0b7  \e0b7";
+}
+
+.prioridade-media-box::after{
+	content: "\e0b7  \e0b7";
+}
+
+.prioridade-baixa-box::after{
+	content: "\e0b7";
+}
+
+.alterar::after{
+	content: "\e092";
+	font-family: Flaticon;
+	font-size: 1.5rem;
+}
+
+.excluir::after{
+	content: "\e0a2";
+	font-family: Flaticon;
+	font-size: 1.5rem;
+	margin-right: 5%;
+}
+
+
