@@ -111,7 +111,7 @@ span{
 button{
 	padding: 3% 1%;
 	width: 49%;
-	margin-top: 80%;
+	margin-top: 39%;
 	margin-left: 0.5%; 
 	font-family: 'OpenSans';
 	font-size: 1rem;
@@ -123,4 +123,29 @@ button{
 }
 #listaDisciplinas{
 	margin-top: 10%;
+}
+
+.valReceived{
+	color: #CFE9F2;
+	font-family: 'OpenSans';
+	
+	font-size: 1rem;
+	margin-left: 6%;	
+}
+.estilizarTpl{
+	border-style: solid;
+	border-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-color: #23a96e;
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;		
+	
+}
+.lbStyle{	
+	font-family: 'OpenSans';
+	color: #7CF5C0;
+	font-size: 1.5rem;
 }

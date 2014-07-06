@@ -29,5 +29,5 @@ window.setInterval(function getDate(){
 			}		
 	});
 	
-}, 5000);
+}, 60000*3);
 

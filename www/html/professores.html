@@ -33,7 +33,9 @@
 
         <script type="x-tmpl-mustache" id="template-professor">
           <div class="info-prof">
-            <p class="nome" id="nome">Nome: {{nome}}</p>
+            <div class="estilizarTpl">
+                <p class="lbStyle">Nome:</p><p class="valReceived" id="nome">{{nome}}</p>
+            </div>
             <button name="btExcluir" id="btExcluir">Excluir</button>
             <button name="btAlterar" id="btAlterar">Alterar</button>
           </div>

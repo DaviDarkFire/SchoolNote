@@ -30,9 +30,15 @@
 
         <script type="x-tmpl-mustache" id="template-disciplina">
           <div class="info-disc">
-            <p class="nome" id="nome">Nome: {{nome}}</p>
-            <p class="diasSemana">Dias: {{diasSemana}}</p>
-            <p class="professor">Professor: {{professor}}</p>
+            <div class="estilizarTpl">
+                <p class="lbStyle">Nome:</p><p class="valReceived" id="nome">{{nome}}</p>
+            </div>
+            <div class="estilizarTpl">
+                <p class="lbStyle">Dias:</p><p class="valReceived" id="diasSemana">{{diasSemana}}</p>
+            </div>
+            <div class="estilizarTpl">
+                <p class="lbStyle">Professor:</p><p class="valReceived" id="professor">{{professor}}</p>
+             </div>             
             <button name="btExcluir" id="btExcluir">Excluir</button>
             <button name="btAlterar" id="btAlterar">Alterar</button>
           </div>

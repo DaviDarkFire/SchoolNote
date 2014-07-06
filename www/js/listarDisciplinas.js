@@ -32,7 +32,6 @@
 		var $el = $(resultado);
 
 
-
 		$('#content').append($el);
 
 		$('#btExcluir').click(function(evt){

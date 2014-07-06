@@ -11,6 +11,9 @@ var disciplinaOuProjeto;
 var tipoAnotacao;
 var nivelImportancia;
 
+var CheckedRadio = sessionStorage.getItem("CheckedRadio");
+$( "#"+CheckedRadio).prop("checked", true);
+
 $("#btAlterarAnotacao").click(function(evt){
 	evt.preventDefault();
 

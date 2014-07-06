@@ -25,6 +25,8 @@ var disciplinaOuProjeto;
 var tipoAnotacao;
 var nivelImportancia;
 
+$( "#baixo" ).prop( "checked", true );
+
 $('#cad_Anotacao').submit(function(evt){
 		evt.preventDefault();		
 

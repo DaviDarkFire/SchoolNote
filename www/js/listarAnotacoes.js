@@ -70,6 +70,7 @@ $.each(anotacoes, function(index, anotacao){
 		sessionStorage.setItem("nome", anotacao.nome);
 		sessionStorage.setItem("data", anotacao.data);
 		sessionStorage.setItem("lembrete", anotacao.lembrete);
+		sessionStorage.setItem("CheckedRadio", anotacao.nivelImportancia)
 		window.open(
 			'../html/alterarAnotacao.html');
 		
